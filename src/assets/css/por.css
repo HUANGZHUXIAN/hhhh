@@ -1,0 +1,42 @@
+.por {
+    float: left;
+    width: calc(100% - 50px);
+  }
+  .el-col-15 {
+    padding-left: 30px;
+  }
+.title{
+    width: 100%;
+    text-align: center;
+}
+ul,li {
+    list-style: none;
+}
+.pro-list ul{
+    overflow: hidden;
+}
+.pro-list li{
+    float: left;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #ff6700;
+    color: #fff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.ckList{
+    overflow: hidden;
+}
+.ckList li{
+    width: 20%;
+    float: left;
+    text-align: center;
+    border: 1px solid yellowgreen;
+    margin: 10px;
+    cursor: pointer;
+}
+.ckList li img{
+    width: 100%;
+}
